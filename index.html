@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown Timer</title>
+</head>
+
+<body>
+    <div class="container font-mono h-screen w-full flex items-center flex-col justify-center bg-gray-500">
+        <div class="text-5xl leading-[4rem]">
+            <h1>We are comming soon</h1>
+            <h1 id="countdown">20 March 2022 10:00 PM</h1>
+        </div>
+        <div class="box items-center  justify-center flex mt-10 border-2 p-10 bg-gray-600">
+            <div class="items-center  justify-center flex flex-col font-serif">
+                <input class="  text-center block mx-2 w-[6rem] h-12 mb-3 text-3xl rounded" type="text" placeholder="Days" readonly>
+                <label class="mx-2 bg-green-500 p-1 rounded" for="">Days</label>
+            </div>
+            <div class="items-center  justify-center flex flex-col">
+                <input class="block text-center mx-2 w-[6rem] h-12 mb-3 text-3xl rounded" type="text" placeholder="Hours" readonly>
+                <label class="mx-2 bg-green-500 p-1 rounded" for="">Hours</label>
+            </div>
+            <div class="items-center  justify-center flex flex-col">
+                <input class="block text-center mx-2 w-[6rem] h-12 mb-3 text-3xl rounded" type="text" placeholder="Minutes" readonly>
+                <label class="mx-2 bg-green-500 p-1 rounded" for="">Minutes</label>
+            </div>
+            <div class="items-center  justify-center flex flex-col">
+                <input class="block text-center mx-2 w-[6rem] h-12 mb-3 text-3xl rounded" type="input" placeholder="Seconds" readonly>
+                <label class="mx-2 bg-green-500 p-1 rounded" for="">Seconds</label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
